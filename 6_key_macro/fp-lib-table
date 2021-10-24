@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name symbols)(type KiCad)(uri /home/jeff/Documents/Projects/Kicad_libraries/cherry_mx/symbols)(options "")(descr ""))
+  (lib (name CherryMX)(type KiCad)(uri /home/jeff/Documents/Projects/Kicad_libraries/cherry_mx/footprints/CherryMX.pretty)(options "")(descr ""))
+  (lib (name CherryMX_LED)(type KiCad)(uri /home/jeff/Documents/Projects/Kicad_libraries/cherry_mx/footprints/CherryMX_LED.pretty)(options "")(descr ""))
+  (lib (name CherryMX_PCB_LED)(type KiCad)(uri /home/jeff/Documents/Projects/Kicad_libraries/cherry_mx/footprints/CherryMX_PCB_LED.pretty)(options "")(descr ""))
+)

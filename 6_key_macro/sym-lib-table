@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CherryMX)(type Legacy)(uri /home/jeff/Documents/Projects/Kicad_libraries/cherry_mx/symbols/CherryMX.lib)(options "")(descr ""))
+)
