@@ -234,17 +234,6 @@ F 3 "~" H 10400 5600 50  0001 C CNN
 	1    10400 5600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Power_Protection:USBLC6-2P6 U2
-U 1 1 614DAD6B
-P 5300 6350
-F 0 "U2" V 5550 6750 50  0000 C CNN
-F 1 "USBLC6-2P6" V 5450 6950 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-666" H 5300 5850 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 5500 6700 50  0001 C CNN
-	1    5300 6350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5200 5950 4900 5950
 Wire Wire Line
@@ -1164,5 +1153,16 @@ F 2 "" H 4800 5300 50  0001 C CNN
 F 3 "" H 4800 5300 50  0001 C CNN
 	1    4800 5300
 	-1   0    0    1   
+$EndComp
+$Comp
+L Power_Protection:USBLC6-2SC6 U2
+U 1 1 617CA8CA
+P 5300 6350
+F 0 "U2" V 5254 6794 50  0000 L CNN
+F 1 "USBLC6-2SC6" V 5345 6794 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5300 5850 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 5500 6700 50  0001 C CNN
+	1    5300 6350
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
