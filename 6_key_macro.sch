@@ -997,16 +997,14 @@ Text Label 1400 2950 2    50   ~ 0
 Reset
 Text Label 2850 4650 3    50   ~ 0
 SWDIO
-Text Label 2750 4650 3    50   ~ 0
+Text Label 2750 5050 3    50   ~ 0
 SWCLK
-Wire Wire Line
-	2750 4650 2750 4350
 Wire Wire Line
 	2650 4350 2750 4350
 Wire Wire Line
 	2850 4250 2650 4250
 Wire Wire Line
-	2850 4250 2850 4650
+	2850 4250 2850 4600
 $Comp
 L Device:R R10
 U 1 1 6171071E
@@ -1163,6 +1161,58 @@ F 1 "USBLC6-2SC6" V 5345 6794 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5300 5850 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 5500 6700 50  0001 C CNN
 	1    5300 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 4350 2750 5000
+$Comp
+L power:+3.3V #PWR0132
+U 1 1 61852197
+P 3150 4600
+F 0 "#PWR0132" H 3150 4450 50  0001 C CNN
+F 1 "+3.3V" H 3165 4773 50  0000 C CNN
+F 2 "" H 3150 4600 50  0001 C CNN
+F 3 "" H 3150 4600 50  0001 C CNN
+	1    3150 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 61852CCA
+P 2900 5000
+F 0 "R14" V 2800 5050 50  0000 C CNN
+F 1 "10k" V 2900 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2830 5000 50  0001 C CNN
+F 3 "~" H 2900 5000 50  0001 C CNN
+	1    2900 5000
+	0    1    1    0   
+$EndComp
+Connection ~ 2750 5000
+Wire Wire Line
+	2750 5000 2750 5050
+$Comp
+L Device:R R15
+U 1 1 61853C73
+P 3000 4600
+F 0 "R15" V 2900 4650 50  0000 C CNN
+F 1 "10k" V 3000 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2930 4600 50  0001 C CNN
+F 3 "~" H 3000 4600 50  0001 C CNN
+	1    3000 4600
+	0    1    1    0   
+$EndComp
+Connection ~ 2850 4600
+Wire Wire Line
+	2850 4600 2850 4650
+$Comp
+L power:+3.3V #PWR0133
+U 1 1 61854335
+P 3050 5000
+F 0 "#PWR0133" H 3050 4850 50  0001 C CNN
+F 1 "+3.3V" H 3065 5173 50  0000 C CNN
+F 2 "" H 3050 5000 50  0001 C CNN
+F 3 "" H 3050 5000 50  0001 C CNN
+	1    3050 5000
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
